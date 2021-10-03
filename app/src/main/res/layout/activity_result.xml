@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/result_toolbar"/>
+
+
+    <Button
+        android:id="@+id/result_check"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:drawableLeft="@drawable/ic_resultchecker"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="65dp"
+        android:text="Check Result"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        tools:ignore="RtlCompat"
+        />
+
+
+    <View
+        android:id="@+id/result_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/wave"/>
+
+</LinearLayout>

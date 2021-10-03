@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pROfile"
+            android:icon="@drawable/ic_student_profile"
+            android:title="Student Profile" />
+        <item
+            android:id="@+id/nav_eDetails"
+            android:icon="@drawable/ic_examdetails"
+            android:title="Exam Details" />
+        <item
+            android:id="@+id/nav_rEsult"
+            android:icon="@drawable/ic_result"
+            android:title="Result" />
+
+    </group>
+</menu>
